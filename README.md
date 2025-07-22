@@ -33,7 +33,7 @@ Un bot Python professionnel pour surveiller automatiquement les prix et la dispo
 
 ### Installation des dépendances
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### Configuration (optionnel)
@@ -233,7 +233,7 @@ SITE_CONFIGS = {
 ### Serveur Linux
 ```bash
 # Crontab pour exécution automatique toutes les 6h
-0 */6 * * * /usr/bin/python3 /path/to/main.py -f /path/to/urls.csv --summary
+0 */6 * * * /usr/bin/python /path/to/main.py -f /path/to/urls.csv --summary
 ```
 
 ### Docker (optionnel)
